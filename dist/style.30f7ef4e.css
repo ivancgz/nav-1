@@ -131,17 +131,17 @@ body {
   position: absolute;
   right: 10px;
   top: 5px;
-  cursor: default;
 }
 
 @media (min-width: 500px) {
   .siteList .site > .close {
     display: none;
+    cursor: default;
   }
-}
 
-.siteList .site:hover > .close {
-  display: block;
+  .siteList .site:hover > .close {
+    display: block;
+  }
 }
 
 .siteList .addButton {
@@ -174,4 +174,4 @@ body {
 }
 
 
-/*# sourceMappingURL=style.010c2988.css.map */
+/*# sourceMappingURL=style.30f7ef4e.css.map */
